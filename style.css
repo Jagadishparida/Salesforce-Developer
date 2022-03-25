@@ -2,14 +2,24 @@
 
 body {
   background-image: url("images/back.png") ;
-  border:#333333
+  border:#33ccab
    /* text-align:limegreen  */
   font-family
   font-size
   
 }
 
-   
+   .bodyimage{
+     border-radius: 8px;
+     border: 5px solid #ddd;
+     padding: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     border:#aa6805
+     
+   }
 
 a {
   text-decoration: none;
@@ -56,6 +66,7 @@ nav a {
   height: 500px;
  margin: 20px auto;
  overflow: scroll;
+ text-align: center;
 }
 
 /* Content Header */
@@ -66,6 +77,7 @@ nav a {
   background-position: center;
   background-size: cover;
   opacity: 0.6;
+  text-align:center;
 }
 
 .header h1 {
@@ -90,7 +102,7 @@ nav a {
 .body p {
   color: #333333;
   font-weight: 100;
-  line-height: 34px;
+  line-height: 14px;
   width: 90%;
   margin-top: 18px;
   font-size:  30px;
@@ -98,24 +110,58 @@ nav a {
 }
 
 /* Content Button */
-
-.button {
+.button2 {
   width: 200px;
   padding: 20px;
-  margin: 40px auto;
+  margin: 10px auto;
   border: 1px solid red;
   border-radius: 4px;
   color: #05aa29;
   display: block;
-  font-weight: 700;
+  font-weight: 700
 }
-
-.button:hover {
+.button2:hover{
   background-color: #1505aa;
   border: 1px solid #aa6805;
   color: rgb(223, 84, 84);
+  
 }
 
+.button1 {
+  width: 100px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid red;
+  border-radius: 4px;
+  color: #05aa29;
+  display: block;
+  font-weight: 700
+  
+  
+}
+
+.button1:hover {
+  background-color: #1505aa;
+  border: 1px solid #aa6805;
+  color: rgb(223, 84, 84);
+  
+}
+.button3{
+  width: 120px;
+  
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid red;
+  border-radius: 4px;
+  color: #05aa29;
+  display:table-row;
+  font-weight: 700
+}
+.button3:hover{
+  background-color: #05aa2e;
+  border: 1px solid #aa6805;
+  color: rgb(223, 84, 84);
+}
 /* Content list */
 
 ul.list {
@@ -145,7 +191,12 @@ ul.list li {
   font-weight: 700;
   letter-spacing: 2px;
 }
-.footer{
-  color: aqua;
-  margin-bottom: 5px
+
+
+
+footer{
+  
+  color: rgb(255, 0, 0);
+  margin-bottom: 0px
+  
 }
