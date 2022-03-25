@@ -1,0 +1,151 @@
+/* Universal Styles */
+
+body {
+  background-image: url("images/back.png") ;
+  border:#333333
+   /* text-align:limegreen  */
+  font-family
+  font-size
+  
+}
+
+   
+
+a {
+  text-decoration: none;
+
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+}
+
+nav img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav span {
+  margin: 20px 0px;
+  display: inline-block;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font: bold;
+}
+
+nav a {
+  color:black;
+  }
+  a.button:hover{
+  background-color: brown;
+  border: 1px solid #aa6805;
+  color: rgb(110, 84, 223);
+  }
+  
+
+/* Content Container */
+
+.content {
+  width: 100%;
+  height: 500px;
+ margin: 20px auto;
+ overflow: scroll;
+}
+
+/* Content Header */
+
+.header {
+  height: 400px;
+  background-image: ("images/back.png");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.header h1 {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #df1717;
+  color: #FFF;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  width: 68%;
+}
+
+/* Content Body */
+
+.content .body {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+  font-size:  30px;
+  text-align: center;
+}
+
+/* Content Button */
+
+.button {
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid red;
+  border-radius: 4px;
+  color: #05aa29;
+  display: block;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #1505aa;
+  border: 1px solid #aa6805;
+  color: rgb(223, 84, 84);
+}
+
+/* Content list */
+
+ul.list {
+  padding: 40px;
+}
+
+ul.list li {
+  margin-bottom: 3px;
+  width: 200px;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: green;
+  list-style-type: auto;
+}
+
+.list .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+
+.list .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.footer{
+  color: aqua;
+  margin-bottom: 5px
+}
